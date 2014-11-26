@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+<url id="ledth.com" value="新世纪LED网;20" >
+<pubtime  xpath="//*[@id=&quot;wrapper&quot;]/div[1]/div[2]/div[1]/span[1]/text()" regex="http://www.ledth.com/(h|s|L|l|g|js|q|z)"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrapper&quot;]/div[1]/div[2]/div/p[2]/text()" regex="http://www.ledth.com/e"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;ctl00_ContentPlaceHolder1_Label2&quot;]/text()" regex="http://www.ledth.com/t"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;ctl00_ContentPlaceHolder1_divTime&quot;]/text()" regex="http://www.ledth.com/p"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrapper&quot;]/div[2]/div[1]/div[1]/span[1]/text()" regex="http://www.ledth.com/(x|c)"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrapper&quot;]/div[3]/div[1]/div[1]/span[1]/text()" regex="http://www.ledth.com/(b|ji)"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;postsContainer&quot;]/table[2]/tbody/tr[1]/td[2]/div[1]/div[1]/em/span/@title" regex="http://bbs.ledth.com/"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;postsContainer&quot;]/table[1]/tbody/tr[1]/td[1]/div/text()" regex="http://bbs.ledth.com/showtopic"  desc="阅读量"></browsenum>
+<commentnum  xpath="//*[@id=&quot;postsContainer&quot;]/table[1]/tbody/tr[1]/td[1]/div/text()/text()" regex="http://bbs.ledth.com/showtopic"  desc="评论量"></commentnum>
+<infotype  xpath="other" regex="http://www.ledth.com/ZT/"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://bbs.ledth.com/showtopic"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://www.ledth.com/(h|s|L|l|g|js|q|z|e|t|p|x|c|b|ji)"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://yoyo9130.b2b.ledth.com/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://hkled.b2b.ledth.com/"  desc="文章类型"></infotype>
+</url>
+<url id=".dianyuan.com" value="电源网;1" >
+<pubtime  xpath="/body/div[7]/div[3]/div[1]/div/span/text()" regex="http://bbs.dianyuan.com/article/"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div[7]/div[3]/div[1]/div/span/text()" regex="http://site.dianyuan.com/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wraper&quot;]/div/div/div[3]/div[1]/div/p/span[3]/text()" regex="http://bbs.dianyuan.com/index.php?do=news_article_show&amp;id"  desc="发布时间"></pubtime>
+<browsenum  xpath="/body/div[7]/div[3]/div[1]/div/span/font/text()" regex="http://bbs.dianyuan.com/article/"  desc="阅读量"></browsenum>
+<browsenum  xpath="//*[@id=&quot;wraper&quot;]/div/div/div[3]/div[1]/div/p/span[4]/text()" regex="http://bbs.dianyuan.com/index.php?do=news_article_show&amp;id"  desc="阅读量"></browsenum>
+<infotype  xpath="news" regex="http://bbs.dianyuan.com/index.php"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://bbs.dianyuan.com/article/"  desc="文章类型"></infotype>
+</url>
+<url id="21dianyuan.com" value="世纪电源网;4" >
+<pubtime  xpath="/body/div/div[9]/h4/b[1]/text()" regex="http://news.21dianyuan.com/detail/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;emu&quot;]/table/tbody/tr[3]/td/table/tbody/tr[1]/td[2]/div/ul/li[4]/text()" regex="http://bbs.21dianyuan.com/"  desc="发布时间"></pubtime>
+<browsenum  xpath="/body/div/div[9]/h4/b[3]/text()" regex="http://news.21dianyuan.com/detail/"  desc="阅读量"></browsenum>
+<commentnum  xpath="/body/div/div[9]/h4/i/text()" regex="http://news.21dianyuan.com/detail/"  desc="评论量"></commentnum>
+<infotype  xpath="product" regex="21dianyuan.com/cc-product"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://news.21dianyuan.com/detail/"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://bbs.21dianyuan.com/"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.21dianyuan.com/job/"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.21dianyuan.com/resume/"  desc="文章类型"></infotype>
+</url>
+<url id="bbs.elecfans.com" value="硬件设计论坛-中国电子论坛;3" >
+<pubtime  xpath="//*[@id=&quot;postlist&quot;]/div[1]/table[1]/tbody/tr[1]/td[2]/div[1]/div[1]/div[2]/em/span/@title" regex="http://bbs.elecfans.com/j"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;content&quot;]/p[1]/span/@title" regex="http://bbs.elecfans.com/a"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;postlist&quot;]/div[1]/table[1]/tbody/tr[1]/td[2]/div[1]/div[2]/div[2]/em/text()" regex="http://bbs.elecfans.com/f"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;content&quot;]/p[1]/span/@title" regex="http://bbs.elecfans.com/blog"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;ct&quot;]/div[1]/div/div[2]/div[1]/div[1]/p/span[2]/text()" regex="http://bbs.elecfans.com/j"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@class=&quot;fb&quot;]/text()" regex="http://39.elecfans.com"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;p_btn&quot;]/div[2]/strong/span[2]/text()" regex="http://bbs.elecfans.com/"  desc="阅读量"></browsenum>
+<commentnum  xpath="//*[@class=&quot;l-comments&quot;]/text()" regex="http://bbs.elecfans.com/"  desc="评论量"></commentnum>
+<infotype  xpath="bbs" regex="http://bbs.elecfans.com/jishu"  desc="文章类型"></infotype>
+</url>
+<url id="ledzmw" value="中国LED照明网ledzmw;9" >
+<pubtime  xpath="/body/div[6]/div[1]/div/div[1]/text()" regex="http://www.ledzmw.com/news/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;content&quot;]/table/tbody/tr[8]/td[2]/text()" regex="http://www.ledzmw.com/job/"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div[5]/div[1]/div/div[2]/text()" regex="http://www.ledzmw.com/exhibit/"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div[5]/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/table/tbody/tr[7]/td[2]/text()" regex="http://www.ledzmw.com/buy/"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div[5]/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/table/tbody/tr[9]/td[2]text()" regex="http://www.ledzmw.com/sell/"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;hits&quot;]/text()" regex="http://www.ledzmw.com/"  desc="阅读量"></browsenum>
+<commentnum  xpath="//*[@id=&quot;comment_count&quot;]/text()" regex="http://www.ledzmw.com/"  desc="评论量"></commentnum>
+<infotype  xpath="news" regex="http://www.ledzmw.com/news/"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.ledzmw.com/job/"  desc="文章类型"></infotype>
+<infotype  xpath="other" regex="http://www.ledzmw.com/exhibit/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ledzmw.com/sell/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ledzmw.com/buy/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ledzmw.com/comment/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ledzmw.com/wap"  desc="文章类型"></infotype>
+</url>
+<url id="zol" value="LED照明-中关村在线;10" >
+<pubtime  xpath="//*[@id=&quot;pubtime_baidu&quot;]/text()" regex="http://led.zol.com.cn/"  desc="发布时间"></pubtime>
+<commentnum  xpath="//*[@id=&quot;comment-num-tit&quot;]/text()" regex="http://led.zol.com.cn/"  desc="评论量"></commentnum>
+</url>
+<url id="21ic" value="LED照明-21IC中国电子网;11" >
+<pubtime  xpath="//*[@id=&quot;wrap&quot;]/div[3]/div/div[1]/div[1]/div[2]/div[1]/span/text()" regex="http://www.21ic.com/news/"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div/div[2]/div[1]/div[2]/div/div[1]/span/text()" regex="http://www.21ic.com/zhuanfang/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrap&quot;]/div[3]/div/div[1]/div[1]/div[2]/div/span/text()" regex="http://www.21ic.com/app/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@class=&quot;title&quot;]/text()" regex="http://embed.21ic.com/news/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrap&quot;]/div/div[3]/div/div/div/div[2]/div[1]/div/span/text()" regex="http://power.21ic.com/ce/technical/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrap&quot;]/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div/span/text()" regex="http://power.21ic.com/ce/np/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrap&quot;]/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div/span/text()" regex="http://power.21ic.com/digi/np/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;wrap&quot;]/div[1]/div[3]/div/div[1]/div/div[2]/div[1]/div/span/text()" regex="http://power.21ic.com/ce/infor/"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;plpost&quot;]/text()" regex="http://power.21ic.com/"  desc="阅读量"></browsenum>
+</url>
+<url id="ofweek.com" value="LED照明-OFweek半导体照明网;12" >
+<pubtime  xpath="//*[@class=&quot;sdate&quot;]/text()" regex="http://lights.ofweek.com/"  desc="发布时间"></pubtime>
+<infotype  xpath="news" regex="http://lights.ofweek.com/"  desc="文章类型"></infotype>
+</url>
+<url id="ledcac.com" value="LED广告照明网;13" >
+<pubtime  xpath="//*[@class=&quot;info&quot;]/text()" regex="http://www.ledcac.com/news/"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div[11]//div/table/tbody/tr/td[2]/table/tbody/tr[3]/td[3]/table/tbody/tr[7]/td[2]/text()" regex="http://www.ledcac.com/buy/"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div[11]/div[1]/div/div[2]/table/tbody/tr/td[3]/ul/li[1]/text()" regex="http://www.ledcac.com/invest/"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;hits&quot;]/text()" regex="http://www.ledcac.com/"  desc="阅读量"></browsenum>
+<commentnum  xpath="//*[@id=&quot;comment_count&quot;]/text()" regex="http://www.ledcac.com/"  desc="评论量"></commentnum>
+<infotype  xpath="news" regex="http://www.ledcac.com/news/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ledcac.com/buy/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ledcac.com/invest/"  desc="文章类型"></infotype>
+<infotype  xpath="other" regex="http://wap.ledcac.com/mobile.php"  desc="文章类型"></infotype>
+</url>
+<url id="58lighting.com" value="环球照明网;14" >
+<pubtime  xpath="//*[@class=&quot;info&quot;]/text()" regex="http://www.58lighting.com/news/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@valign=&quot;top&quot;]/text()" regex="http://dgmskj.58lighting.com/sell/itemid"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/div[5]/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/table/tbody/tr[8]/td[2]/text()" regex="http://www.58lighting.com/sell/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;main&quot;]/text()" regex="http://shh9966.58lighting.com/sell/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;main&quot;]/text()" regex="http://lipei888.58lighting.com/sell/"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;hits&quot;]/text()" regex="http://www.58lighting.com/news/"  desc="阅读量"></browsenum>
+<commentnum  xpath="//*[@id=&quot;comment_count&quot;]/text()" regex="http://www.58lighting.com/news/"  desc="评论量"></commentnum>
+<infotype  xpath="other" regex="http://www.58lighting.com/spread/list-htm-mid"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://www.58lighting.com/news/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.58lighting.com/comment/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://dgmskj.58lighting.com/sell/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.58lighting.com/sell/"  desc="文章类型"></infotype>
+<infotype  xpath="other" regex="http://www.58lighting.com/exhibit/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://shh9966.58lighting.com/sell/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://lipei888.58lighting.com/sell/"  desc="文章类型"></infotype>
+
+</url>
+<url id="baidajob.com" value="LED照明人才求职招聘-中国LED人才网;15" >
+<pubtime  xpath="//*[@class=&quot;ul-left&quot;]/text()" regex="http://led.baidajob.com/"  desc="发布时间"></pubtime>
+</url>
+<url id="led889" value="中国LED照明网led889;16" >
+<pubtime  xpath="//*[@class=&quot;content_line&quot;]/text()" regex="http://led889.com/Html/"  desc="发布时间"></pubtime>
+</url>
+<url id="cnledw.com" value="中国LED网;17" >
+<pubtime  xpath="/body/div[8]/div[4]/div[1]/div[1]/div[2]/text()" regex="http://www.cnledw.com/info/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@class=&quot;conn2&quot;]/ul/li[4]/text()" regex="http://www.cnledw.com/buy/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@class=&quot;newsdate1&quot;]/div[2]/text()" regex="http://www.cnledw.com/info/news"  desc="发布时间"></pubtime>
+<pubtime  xpath="/body/text()" regex="http://www.cnledw.com/product/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;main&quot;]/text()" regex="http://www.cnledw.com/hr/"  desc="发布时间"></pubtime>
+</url>
+<url id="2ic" value="半导体技术天地;18" >
+<pubtime  xpath="//*[@id=&quot;content&quot;]/p[1]/text()" regex="http://www.2ic.cn/archiver/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;postlist&quot;]/div[1]/table[1]/tbody/tr/td[2]/div[1]/div[2]/text()" regex="http://xiaoxiao.2ic.cn/forum.php?mod=viewthread&amp;tid"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;postlist&quot;]/div[1]/table[1]/tbody/tr/td[2]/div[1]/div[2]/div[2]/text()" regex="http://www.2ic.cn/forum.php?mod=viewthread&amp;tid"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;postlist&quot;]/table[1]/tbody/tr/td[1]/div/span[2]/text()" regex="http://www.2ic.cn/thread"  desc="阅读量"></browsenum>
+<browsenum  xpath="//*[@id=&quot;postlist&quot;]/table[1]/tbody/tr/td[1]/div/span[2]/text()" regex="http://xiaoxiao.2ic.cn/forum.php?mod=viewthread&amp;tid"  desc="阅读量"></browsenum>
+<browsenum  xpath="//*[@id=&quot;postlist&quot;]/table[1]/tbody/tr/td[1]/div/span[2]text()" regex="http://www.2ic.cn/forum.php?mod=viewthread&amp;tid"  desc="阅读量"></browsenum>
+<commentnum  xpath="//*[@id=&quot;postlist&quot;]/table[1]/tbody/tr/td[1]/div/span[5]/text()" regex="http://www.2ic.cn/"  desc="评论量"></commentnum>
+<commentnum  xpath="//*[@id=&quot;postlist&quot;]/table[1]/tbody/tr/td[1]/div/span[5]/text()" regex="http://xiaoxiao.2ic.cn/forum.php?mod=viewthread&amp;tid"  desc="评论量"></commentnum>
+<infotype  xpath="other" regex="http://www.2ic.cn/home.php?mod=spacecp"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://www.2ic.cn/forum.php?mod=forumdi"  desc="文章类型"></infotype>
+<infotype  xpath="other" regex="http://www.2ic.cn/space"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://www.2ic.cn/thread"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://www.2ic.cn/forum.php?mod"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://xiaoxiao.2ic.cn/forum.php"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://www.2ic.cn/archiver/?tid"  desc="文章类型"></infotype>
+</url>
+<url id="bandaoti.biz" value="中国半导体网;19" >
+<pubtime  xpath="//*[@id=&quot;content&quot;]/p[1]/text()" regex="http://news.bandaoti.biz/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;mainRight&quot;]/div[3]/ul/li/div[2]/h2/b/text()" regex="http://shizai1986.bandaoti.biz/trade/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;main&quot;]/div[2]/div[1]/div[1]/div/div[3]/text()" regex="http://www.bandaoti.biz/product/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;main&quot;]/div[2]/div[1]/div[1]/div/div[2]/div[2]/ul/li[3]/text()" regex="http://www.bandaoti.biz/trade/"  desc="发布时间"></pubtime>
+<pubtime  xpath="//*[@id=&quot;mainRight&quot;]/div[3]/div[1]/div[2]/h2/li[8]/text()" regex="http://xutengjx.bandaoti.biz/product/"  desc="发布时间"></pubtime>
+<browsenum  xpath="//*[@id=&quot;mainRight&quot;]/div[3]/div[1]/div[2]/h2/li[1]/font/text()" regex="http://sksjlrpyj.bandaoti.biz/product/"  desc="阅读量"></browsenum>
+<browsenum  xpath="//*[@id=&quot;mainRight&quot;]/div[3]/ul/li/div[2]/h2/span/text()" regex="http://shizai1986.bandaoti.biz/trade/"  desc="阅读量"></browsenum>
+<browsenum  xpath="//*[@id=&quot;main&quot;]/div[2]/div[1]/div[1]/div/div[1]/h6/font/text()" regex="http://www.bandaoti.biz/"  desc="阅读量"></browsenum>
+<browsenum  xpath="//*[@id=&quot;mainRight&quot;]/div[3]/div[1]/div[2]/h2/li[1]/font/text()" regex="http://xutengjx.bandaoti.biz/product/"  desc="阅读量"></browsenum>
+<infotype  xpath="product" regex="http://sksjlrpyj.bandaoti.biz/product/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://shizai1986.bandaoti.biz/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.bandaoti.biz/product/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://search.bandaoti.biz/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.bandaoti.biz/trade/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://xutengjx.bandaoti.biz/product/"  desc="文章类型"></infotype>
+</url>
+
+<url id="on-bright" value="On-Bright Electronics;21" >
+<infotype  xpath="product" regex="http://www.on-bright.com/cn/products"  desc="文章类型"></infotype>
+</url>
+<url id="silan" value="杭州士兰微电子;22" >
+<infotype  xpath="product" regex="http://www.silan.com.cn/product"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.silan.com.cn/Info/job"  desc="文章类型"></infotype>
+
+</url>
+<url id="bpsemi" value="上海晶丰明源;23" >
+<infotype  xpath="product" regex="http://www.bpsemi.com/BP"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.bpsemi.com/hr"  desc="文章类型"></infotype>
+<infotype  xpath="bbs" regex="http://www.bpsemi.com/bbs/"  desc="文章类型"></infotype>
+
+</url>
+<url id="chinaasic" value="深圳明微电子;24" >
+<infotype  xpath="product" regex="http://www.chinaasic.com/cnproduct"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://www.chinaasic.com/cnaboutus"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.chinaasic.com/cnhr"  desc="文章类型"></infotype>
+
+</url>
+<url id="sifirsttech" value="SiFirst Technologies;25" >
+<pubtime  xpath="//*[@id=&quot;content&quot;]/div/div/div/div/div[2]/text()" regex="http://www.sifirsttech.com/en/news"  desc="发布时间"></pubtime>
+<infotype  xpath="product" regex="http://www.sifirsttech.com/en/products"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://www.sifirsttech.com/en/news"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.sifirsttech.com/en/careers"  desc="文章类型"></infotype>
+
+</url>
+<url id="leadtrend" value="通嘉科技;26" >
+<pubtime  xpath="/body/table[4]/tbody/tr/td/table/tbody/tr/td[2]/table[2]/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/span/span/strong/text()" regex="http://www.leadtrend.com.cn/ch/news"  desc="发布时间"></pubtime>
+<infotype  xpath="product" regex="http://www.leadtrend.com.tw/ch/product"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://www.leadtrend.com.cn/ch/news"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.leadtrend.com.cn/ch/career"  desc="文章类型"></infotype>
+
+</url>
+<url id="maxictech" value="美芯晟科技;27" >
+<pubtime  xpath="//*[@id=&quot;content&quot;]/div[2]/div[2]/div[1]/div/text()" regex="http://www.maxictech.com/plus/view.php"  desc="发布时间"></pubtime>
+<infotype  xpath="product" regex="http://www.maxictech.com/products"  desc="文章类型"></infotype>
+
+</url>
+<url id="silergy" value="Silergy;28" >
+<infotype  xpath="product" regex="http://www.silergy.com/cn/products/"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://www.silergy.com/cn/news"  desc="文章类型"></infotype>
+<infotype  xpath="job" regex="http://www.silergy.com/cn/recruitment"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.silergy.com/productsview/"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://www.silergy.com/newsview/"  desc="文章类型"></infotype>
+
+</url>
+<url id="crpowtech" value="华润矽威;29" >
+<infotype  xpath="job" regex="http://www.crpowtech.com/join/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.crpowtech.com/en/app/detail.aspx?dlfil=product"  desc="文章类型"></infotype>
+<infotype  xpath="other" regex="http://www.crpowtech.com/app/form.aspx?dlfile"  desc="文章类型"></infotype>
+
+</url>
+<url id="ti.com" value="德州仪器;30" >
+<infotype  xpath="product" regex="http://www.ti.com.cn/product/"  desc="文章类型"></infotype>
+<infotype  xpath="other" regex="http://www.ti.com.cn/lsds/ti_zh/audio-ic/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ti.com.cn/tool/"  desc="文章类型"></infotype>
+<infotype  xpath="product" regex="http://www.ti.com.cn/lsds/ti_zh/analog/p"  desc="文章类型"></infotype>
+<infotype  xpath="news" regex="http://focus.ti.com.cn/cn/pr/docs/preldetail.tsp?prelId"  desc="文章类型"></infotype>
+</url>
+</templates>
