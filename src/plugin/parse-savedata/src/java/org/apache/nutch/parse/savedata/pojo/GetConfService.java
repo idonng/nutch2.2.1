@@ -128,6 +128,10 @@ public class GetConfService {
 	public Map<String,String> getPubtime(String url) throws IOException
 	{
 		 Document doc=getDoc(url);
+		  if(doc == null)
+		 {
+			 return null;
+		 }
 		 Map<String, String> map=new HashMap<String, String>();
 		 Elements pubtimess = doc.select("url>pubtime");
 		  for(Element pubtimes:pubtimess)
@@ -147,6 +151,10 @@ public class GetConfService {
 	public Map<String,String> getBrowsenum(String url) throws IOException
 	{
 		 Document doc=getDoc(url);
+		  if(doc == null)
+		 {
+			 return null;
+		 }
 		 Map<String, String> map=new HashMap<String, String>();
 		 Elements browsenumss = doc.select("url>browsenum");
 		  for(Element browsenums:browsenumss)
@@ -166,6 +174,10 @@ public class GetConfService {
 	public Map<String,String> getCommentnum(String url) throws IOException
 	{
 		Document doc=getDoc(url);
+		 if(doc == null)
+		 {
+			 return null;
+		 }
 		 Map<String, String> map=new HashMap<String, String>();
 		 Elements commentnumss = doc.select("url>commentnum");
 		  for(Element commentnums:commentnumss)
@@ -185,6 +197,10 @@ public class GetConfService {
 	public Map<String,String> getInfotype(String url) throws IOException
 	{
 		Document doc=getDoc(url);
+		 if(doc == null)
+		 {
+			 return null;
+		 }
 		 Map<String, String> map=new HashMap<String, String>();
 		 Elements infotypess = doc.select("url>infotype");
 		  for(Element infotypes:infotypess)
@@ -204,6 +220,10 @@ public class GetConfService {
 	public String getSite(String url) throws IOException
 	{
 		Document doc=getDoc(url);
+		 if(doc == null)
+		 {
+			 return null;
+		 }
 		 String site = doc.select("url").val();	
 		 return site;
 	}

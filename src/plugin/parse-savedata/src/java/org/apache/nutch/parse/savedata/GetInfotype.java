@@ -21,6 +21,8 @@ public class GetInfotype {
 	{
 	    String tag ="other";
 	    Map<String, String> map= GetConfService.getInstance().getInfotype(html);
+		 if(map!=null)
+	        {
 	    Iterator it = map.entrySet().iterator();
 	    while(it.hasNext()){
 	    	Entry entry = (Entry)it.next();
@@ -31,7 +33,7 @@ public class GetInfotype {
 	    	if (matcher.find()){		    	
 	    		tag=a2;
 	    	}	    	 
-	    }		
+	    }		}
  	   return tag;
  	}	
 }

@@ -27,44 +27,5 @@ public class GetTitle {
 			 title=b1[0];
 		}
 		return title;
-		/*
-		String title=str;
-		str=str.replace(" ", "");
-		 Properties pro = new Properties();
-			try {
-				pro.load(GetInfotype.class.getClassLoader().getResourceAsStream("site.properties"));
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}      
-			Map<String, String> map = new HashMap<String , String>();
-		    Set<Object> keys = pro.keySet();  
-			for(Object key : keys) {
-			 map.put(key.toString(), pro.getProperty(key.toString()));
-			 Iterator it = map.entrySet().iterator();
-		 	  while(it.hasNext()){
-			  Entry entry = (Entry)it.next();
-		 		  String a2=(String) entry.getValue(); 
-	 	    	 Pattern p = Pattern.compile(a2); 
-	 	          Matcher matcher = p.matcher(str); 
-	 	          if (matcher.find()){		    	
-	 	        	 	String regEx=a2; 
-	 	        	 	Pattern p1 = Pattern.compile(regEx);   
-	 	        	 	Matcher m1 = p1.matcher(str);  
-	 	        	 	String a=m1.replaceAll(" ").trim();
-	 	        	 	String[] b=a.split(" ");
-	 	        	 	title=b[0].trim();
-	 	        	 	if(title.substring(title.length()-1, title.length()).equals("-"))
-	 	        	 	{
-	 	        	 		title=title.substring(0, title.length()-1).trim();
-	 	        	 	}
-	 	        	 	if(title.substring(title.length()-1, title.length()).equals("_"))
-	 	        	 	{
-	 	        	 		title=title.substring(0, title.length()-1).trim();
-	 	        	 	}
-	 		    	}	    	 
-	 	          }			  		
-			}
-			return title;
-	 	*/}
+		}
 }

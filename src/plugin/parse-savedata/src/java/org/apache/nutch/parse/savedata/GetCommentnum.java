@@ -20,6 +20,8 @@ import org.htmlcleaner.TagNode;
 		        HtmlCleaner cleaner = new HtmlCleaner();       
 		        TagNode rootNode = cleaner.clean(content);              	
 		        Map<String, String> map= GetConfService.getInstance().getCommentnum(html);
+				 if(map!=null)
+	        {
 		        Iterator it = map.entrySet().iterator();
 		        while(it.hasNext()){
 		        	Entry entry = (Entry)it.next();
@@ -37,7 +39,7 @@ import org.htmlcleaner.TagNode;
 		        				hot=runCommentnum(hot); }
 		        		}	    	 
 		        	}			  	
-		        }	
+		        }	}
 		        if(hot==null||hot.length()==0)
 		        {
 		        	hot="0";}

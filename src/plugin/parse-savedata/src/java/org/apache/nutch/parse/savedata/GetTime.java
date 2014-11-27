@@ -27,6 +27,8 @@ public class GetTime {
         HtmlCleaner cleaner = new HtmlCleaner();       
         TagNode rootNode = cleaner.clean(content);              	
         Map<String, String> map= GetConfService.getInstance().getPubtime(html);
+		 if(map!=null)
+        {
         Iterator it = map.entrySet().iterator();
         while(it.hasNext()){
         	Entry entry = (Entry)it.next();
@@ -51,7 +53,7 @@ public class GetTime {
         				tim=trans(runTime(tim));}     
         			}	    	 
         	}	
-        }
+        }}
         if(tim==null||tim.length()==0)
         {
  	    	SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");	    		

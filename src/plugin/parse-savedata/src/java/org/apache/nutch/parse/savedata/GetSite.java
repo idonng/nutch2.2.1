@@ -12,7 +12,10 @@ public class GetSite {
 	 }
 	public static  String getSite(String url) throws IOException{
 		String site="其他;0";
-		site=GetConfService.getInstance().getSite(url);
+		 if(GetConfService.getInstance().getSite(url) !=null)
+		    {
+			site=GetConfService.getInstance().getSite(url);
+		    }
 		return site;
 	}
 }

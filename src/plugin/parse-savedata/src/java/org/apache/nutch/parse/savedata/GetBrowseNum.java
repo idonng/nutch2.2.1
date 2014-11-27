@@ -22,6 +22,8 @@ public class GetBrowseNum {
 	        HtmlCleaner cleaner = new HtmlCleaner();       
 	        TagNode rootNode = cleaner.clean(content);              	
 	        Map<String, String> map= GetConfService.getInstance().getBrowsenum(html);
+			 if(map!=null)
+	        {
 			Iterator it = map.entrySet().iterator();
 			while(it.hasNext()){
 				Entry entry = (Entry)it.next();
@@ -38,7 +40,7 @@ public class GetBrowseNum {
 							hot=runBrowseNum(hot);}
 					}	    	   
 				}			  	
-			}		
+			}	}			
 			if(hot==null||hot.length()==0){
 				hot="0";}	  
 			return hot;	
