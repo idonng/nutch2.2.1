@@ -4,7 +4,7 @@ For the latest information about Nutch, please visit our website at:
 
    http://nutch.apache.org
 
-and our wiki, at:
+and nutch wiki, at:
 
    http://wiki.apache.org/nutch/
 
