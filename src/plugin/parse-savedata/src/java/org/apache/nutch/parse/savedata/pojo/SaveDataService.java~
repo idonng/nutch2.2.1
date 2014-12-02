@@ -73,7 +73,7 @@ public class SaveDataService {
 		    
 		    while(!re.next())	
 		    {
-			String sql = "insert into info_reactor_micro(userid,url ,fetchtime ,title ,maintext,snap,pubtime,site,infotype,browsenum,commentnum,siteid) values(187,?,?,?,?,?,?,?,?,?,?,?)" ;		    			
+			String sql = "insert into info_reactor_micro userid,url ,fetchtime ,title ,maintext,snap,pubtime,site,infotype,browsenum,commentnum,siteid) values(187,?,?,?,?,?,?,?,?,?,?,?)" ;		    			
 		    	state = conn.prepareStatement(sql);	
 		    	state.setString(1, sd.getUrl());
 		    	state.setTimestamp(2, new Timestamp(sd.getFetchtime().getTime()));

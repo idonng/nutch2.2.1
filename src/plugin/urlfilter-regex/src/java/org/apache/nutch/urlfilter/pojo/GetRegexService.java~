@@ -53,7 +53,7 @@ public class GetRegexService {
 		  sb.append("-.*(/[^/]+)/[^/]+\1/[^/]+\1/");
 		  sb.append("\r\n");	
 		  try { 
-	 	   String sql="select filter  from  info_reactor_filter";
+	 	   String sql="select filter  from  info_filter";
 	 	   sta =conn.prepareStatement(sql); 
 	 	   ResultSet re=sta.executeQuery();
 	 	   while(re.next())   

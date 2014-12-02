@@ -82,7 +82,7 @@ public class GetConfService {
 		    	 Pattern p = Pattern.compile(reg.substring(2, reg.length())); 
 				 Matcher matcher = p.matcher(url); 
 				  if (matcher.find()){	
-					  String sql1="select conf from info_reactor_filter where filter=? ";	
+					  String sql1="select conf from info_filter where filter=? ";	
 					  sta1 = sdUtils.getConn().prepareStatement(sql1);
 					  sta1.setString(1, reg);
 					  ResultSet re1=sta1.executeQuery();

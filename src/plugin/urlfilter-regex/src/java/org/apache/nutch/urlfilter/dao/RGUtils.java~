@@ -59,8 +59,8 @@ public class RGUtils {
 		}	*/
 		logger.info("url:"+ url);
 		logger.info("username:"+ username);
-		logger.info("passwd:"+passwd);
-		conn1 = DriverManager.getConnection(url, username, passwd);
+		 logger.info("passwd:"+passwd);
+			conn1 = DriverManager.getConnection(url, username, passwd);
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

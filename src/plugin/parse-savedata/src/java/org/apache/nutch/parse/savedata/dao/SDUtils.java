@@ -54,21 +54,17 @@ public class SDUtils {
 	
 	
 	public Connection getConn() {
-			
+		Connection conn1 =null;	
 		try {
-			
-			if(conn != null && !conn.isClosed()) {
-				return conn ;
-			}	
 			logger.info("url:"+ url);
-			logger.info("username"+ username);
-			logger.info("passwd"+passwd);
-			conn = DriverManager.getConnection(url, username, passwd);
+			logger.info("username:"+ username);
+			logger.info("passwd:"+passwd);
+			conn1 = DriverManager.getConnection(url, username, passwd);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return conn ;
+		return conn1 ;
 		
 		
 	}
@@ -113,3 +109,4 @@ public class SDUtils {
 	}
 	
 }
+
